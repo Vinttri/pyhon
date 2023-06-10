@@ -30,6 +30,7 @@ coins=[]
 for i in range(n):
     coins.append(Coin())
 
+
 #вычисляем соотношения
 heads_cnt=0
 tails_cnt=0
