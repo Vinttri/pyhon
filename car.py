@@ -49,7 +49,7 @@ class Car:
         self.milage_to_tank=int(self.gas_per_100km*self.gas)
     def fill(self, litters:int):
         if self.gas+litters > self.capacity:
-            self.gas=litters
+            self.gas=self.capacity
         else:
             self.gas+=litters
         self.calc_milage_to_tank()
